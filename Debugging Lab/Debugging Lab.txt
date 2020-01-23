@@ -1,0 +1,20 @@
+﻿Debugging
+
+
+When you write code, there will often be errors. There are three types of possible errors:
+
+
+Syntax Errors: Program does not compile because of mistakes like missing a bracket or semicolon
+Runtime Errors: Program compiles but fails after running because of these errors, such as null pointer exceptions, index out of bounds exceptions, etc.
+Logic Errors: Program compiles and runs but does the wrong thing
+
+
+This lab will focus on logic errors, as they are the most difficult to identify and correct. Take a look at the following code, and try to identify the errors. Run the program, identify the problem, and how to fix it.
+
+
+
+
+The corresponding java file contains a program with five methods. Your task is to read the descriptions of the intended function of the method, look through the code, and identify and fix the errors that exist. You are not given a main method and are encouraged to create your own that tests the methods. 
+
+
+The last method, called readAndFindMin, is the most challenging one. There are multiple errors within the method. The method also reads from a file that is given as a parameter. You will be given some set up code within main that will assist in testing this method.
