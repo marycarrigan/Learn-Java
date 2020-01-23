@@ -1,0 +1,3 @@
+Name: Ada Lovelace Average Score: 81.65
+Name: Bob Ross Average Score: 67.5
+Average Score for Both Students: 74.575
