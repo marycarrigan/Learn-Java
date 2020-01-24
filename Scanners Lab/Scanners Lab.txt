@@ -1,0 +1,53 @@
+﻿Scanners Lab
+
+
+Scanners are an important tool in Java to read input from different sources. Scanners can read from the console/user input (System.in), from Files, and from strings. Zybooks relies heavily on scanners to read input into variables in their labs. Your TA will introduce how to use them.
+
+
+How to import the scanner (must be done before declaration and use)
+Import java.util.Scanner;
+
+
+How to declare a scanner:
+
+Scanner nameOfScanner = new Scanner(source of input);
+
+
+In many of the labs, the scanner will look like this:
+Scanner scnr = new Scanner(System.in);
+
+
+Reading from System.in means that whatever is typed in the user input box in Zybooks, or the console in Eclipse, is used and read by the scanner in your program.
+
+
+How to read using the scanner:
+
+
+The scanner has associated methods that access input. Your TA will go over these:
+scnr.next();        returns next token
+scnr.nextLine();        returns next line
+scnr.nextInt();                returns next integer
+scnr.nextDouble();        returns next double
+scnr.hasNext();         returns boolean based on if scanner has another token
+
+
+Tasks: 
+
+
+1. Complete a program with the following steps:
+   1. Declare new scanner
+   2. Prompt the user to enter first name
+   3. Use scnr.next() tor read first name into variable
+   4. Repeat b and c with last name instead of first name
+   5. Prompt the user to enter their hometown
+   6. Read input into variable using scnr.nextLine
+* Be careful about using scnr.nextLine. Where is the scnr after reading in the name?
+   7. Prompt the user to enter their age
+   8. Read input into variable using appropriate types and scanner method
+   9. Print out an introduction about the user with the following format as an example.
+
+
+Hello! My name is Ada Lovelace and I am from London. I am 205 years old.
+
+
+2. Complete the ZyBooks lab 2.30
