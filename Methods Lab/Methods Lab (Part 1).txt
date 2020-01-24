@@ -1,0 +1,68 @@
+﻿Methods
+(Part 1)
+
+
+In the previous variables lab, you worked with integers and doubles to calculate the area and circumference of a circle. Today, you will be using methods to expand on that calculation, and you will also write a few other methods.
+
+
+Your TA will explain and demonstrate this first method to introduce you to how to write a method signature, explain what the different keywords mean, and where you can write code in a method. Focus on understanding how the method signature works and the proper ordering. Next lab, we will work more with the return type, which comes after the modifiers (like public and static).
+
+
+Method to Calculate the Area of a Circle
+1. Write the method signature for this method with the following specifications:
+   1. Method name: circleArea
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: void
+   5. Parameters: radius of the circle, with type double
+2. Inside the method, declare a double to store the area of the circle
+   1. Let the program do the calculation for you, assign the value of the area variable with an expression that uses the parameter variable
+3. Print the area variable inside the method
+4. Test your method by calling it in main
+   1. Call circleArea with 2.0 as the parameter
+   2. Call circleArea with 3.0 as the parameter
+5. Check that your program outputs the correct values for each area calculation.
+
+
+Method to Calculate the Volume of a Sphere
+6. Write the method signature for this method with the following specifications:
+   1. Method name: sphereVolume
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: void
+   5. Parameters: radius of the sphere, with type double
+7. Inside the method, declare a double to store the volume of the sphere
+   1. Let the program do the calculation for you, assign the value of the volume variable with an expression that uses the parameter variable
+8. Print the volume inside the method
+9. Test your method by calling it in main
+   1. Call circleVolume with 2.0 as the parameter
+   2. Call circleVolume with 3.0 as the parameter
+10. Check that your program outputs the correct values for each area calculation.
+
+
+Method to Print the Plural Version of a Word
+1. Write the method signature for this method with the following specifications:
+   1. Method name: pluralWord
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: void
+   5. Parameters: word to “pluralize”, of type string
+2. Print the string concatenated with an “s”
+3. Test your method by calling it in main
+   1. Call pluralWord with the singular version of your favorite animal (ex: dog, elephant)
+   2. Call pluralWord with the singular version of your favorite snack (ex: cheeto, pretzel)
+
+
+Method to Swap First Letters of Two Words
+1. Write the method signature for this method with the following specifications:
+   1. Method name: swapFirstLetters
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: void
+   5. Parameters: two string variables
+2. Write code inside your method to swap the first letters of each word and print them out
+   1. Example for what the code should do: 
+      1. Calling swapFirstLetters(“Good”, “Morning”) should print out “Mood Gorning”
+4. Test your method by calling it in main
+   1. Call swapFirstLetters with your first and last name
+   2. Call swapFirstLetters with your favorite two word greeting

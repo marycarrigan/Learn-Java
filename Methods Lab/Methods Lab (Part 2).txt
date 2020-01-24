@@ -1,0 +1,65 @@
+﻿Methods
+(Part 2)
+
+
+In the previous methods lab, you created methods that printed output depending on the parameters passed in to methods. Today we will look at what it means for a method to have a return type that is not void, and what we can do with methods that return variables.
+
+
+Your TA will walk you through an example that demonstrates a method with an integer return type, and how that works when calling a method in main.
+
+
+Method to Return Last Character:
+This method will return the last character of a word, based on a string that is passed into the method as a parameter. Because you don’t know the length of the word, think about how you can access the correct index to get to the last character in the string.
+1. Write the method signature with the following specifications:’
+   1. Method name: pyTheorem
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: char
+   5. Parameters: one string variable
+2. Write code inside your method to return the last character of the string
+3. Test your method by calling it in main
+   1. Test by passing in your favorite color
+   2. Test by passing in your favorite meal
+
+
+Method to Find ASCII Value of Character:
+The variable type char in java corresponds to a numerical value according to the ASCII table. This method will convert a character to its numerical value. Try figuring out what you can do to access the numerical value, and if you need help, ask your TA.
+1. Write the method signature with the following specifications:
+   1. Method name: charToASCII
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: int
+   5. Parameters: char
+2. Write code inside your method to convert the character to a numerical value and return it
+3. Test your method by calling in main with three different characters
+
+
+Pythagorean’s Theorem Method
+Pythagorean’s theorem can be used to solve for the sides of a right triangle. It has the form . Today we will be creating a method that solves for c, if you are given a and b. This is solving for the hypotenuse of a right triangle given the other two sides. 
+1. Write the method signature with the following specifications:
+   1. Method name: pyTheorem
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: Double
+   5. Parameters: two double variables (a and b)
+2. Write code inside your method to use the formula on the two doubles to find c
+   1. Use this equation: 
+   3. Test your method by calling in main
+   1. Test with pyTheorem(3.0, 4.0)
+   2. Test with pyTheorem(5.0, 12.0)
+
+
+Method to “Smash” Words Together
+   1. Write the method signature for this method with the following specifications:
+   1. Method name: smashWords
+   2. Public (anyone can call this method)
+   3. Static (doesn’t need an object to be called)
+   4. Return type: String
+   5. Parameters: two string variables that will be concatenated into one string and outputted
+   2. Write code inside your method to concatenate the first half of the first parameter word with the second half of the second parameter, then return that concatenated string
+   1. A word with an odd number of characters will not be evenly split in half, but use integer division (aka round down) to get the number of characters to use for half the word. For example, if you are trying to get the first half of the word “green”, it’s length is 5, so the first half would be the two characters, “gr”.
+   2. Example for what the code should do: 
+   1. Calling smashWords(“triceratops”, “tyrannosaurus”) should return “triceosaurus”
+   1. Test your method by calling it in main
+   1. Call smashWord with your first and last name
+   2. Call smashWord with two of your favorite dinosaurs
