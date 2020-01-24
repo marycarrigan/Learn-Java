@@ -1,0 +1,65 @@
+﻿Variables and Expressions
+
+
+
+
+Types of Variables:
+Int
+Double
+Char
+Boolean
+String
+Long, Short, Byte, Float
+
+
+Math Methods:
+Math.pi
+Math.min
+Math.max
+Math.abs
+Math.sqrt
+
+
+
+
+String Methods:
+s.substring();
+s.charAt();
+s.indexOf();
+s.length();
+s.equals();
+s.compareTo()
+You have learned about variable assignment and declaration. Today we will practice using variables to store data in different forms. Your TA will discuss the different types of variables, what it means to be a primitive variable, and the methods associated with variables that might come in handy in the future. The methods for math and strings listed above are not complete. There are many more not listed. You can refer to the Java documentation if you are curious about what else is possible. 
+
+
+Steps for Lab Today:
+
+
+Using Integer Variables and Math Methods
+
+
+1. Declare an integer variable to store the radius of a circle
+   1. initialize it with a value of 4
+2. Declare a double to store the area of the circle
+   1. Let the program do the calculation for you, assign the value of the area variable with an expression
+   2. Consider: how to represent pi in java, your options for calculating radius squared, and why we are using a double to store the area
+3. Declare a double to store the circumference of the circle
+   1. Use an expression with the radius variable to initialize this double
+4. Output the shape name, area, circumference, and radius using the variables
+5. Change the radius value to 6, and run the program again
+   1. Your values for the area and circumference should change too
+
+
+
+
+Using String Methods
+1. Declare a String variable that stores your favorite greeting (ex: “Hello”, “Hi”, “What’s crackalackin” or some variation)
+2. Determine which string method to use on your original greeting variable to convert it to uppercase
+   1. Assign this to a new variable, then print it
+3. Determine which string method to use to obtain the first five characters of your original greeting variable
+   1. Assign this to a new variable, then print it
+4. Determine which string method to use to get the last character of your string (assuming you don’t know the length of your string already) and assign it to a char variable
+   1. Print this character variable
+
+
+See attached java code for examples of using math methods and strings.
