@@ -1,0 +1,23 @@
+﻿Welcome to lab in CS 164!
+Goals for Lab Today:
+* Get comfortable with ZyBooks by completing introductory zyLab
+* Review expectations for how to get help from TAs
+Introduction to Zybooks
+You will be using zyBooks for labs and assignments in this course. Refer to the syllabus if you have not set up zyBooks yet. Ask your TA if you need help.
+Please complete zyLabs section 1.12, titled Lab 1: Intro to zyLabs
+TA Expectations
+TAs are a useful resource provided to you for this course. They are knowledgeable about the content and assignments and are here to help you succeed. However, it is important to set the expectations for how the TAs can help.
+What can TAs help with?
+* Conceptual questions about content
+   *  If you’re struggling with a specific topic, ask! A TA can go over it with you.
+*  Hard to fix bugs in your code
+   *  A TA may be able to help troubleshoot what’s going wrong, but remember, try it yourself first, and only ask if you’re really stumped.
+*  Practicing and reviewing material
+   * TAs can help come up with strategies to prepare for quizzes and tests, and can help solidify your knowledge
+What can’t TAs help with?
+* Writing code for you
+* Reading through entire programs
+TAs expect students to put in some effort before asking for help and may ask you to complete some steps before helping you further.  Before asking for help from a TA, please make sure you have:
+*  Read all the instructions for the assignment
+*  Ran your code, and identified the error if you can (if applicable)
+*  Brainstormed potential solutions
