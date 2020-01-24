@@ -1,0 +1,41 @@
+﻿Introduction to File Input and Output
+
+
+In previous labs, you have learned about scanners that can read from different sources. Scanners can also read input from a file. 
+
+
+Review
+Remember, to import the scanner, use import java.util.Scanner;
+To declare the scanner, use Scanner nameOfScanner = new Scanner(source of input);
+
+
+File Input
+The file will be the source of input when using a scanner. Files may be declared directly in the parentheses of the scanner declaration, or before declaring the scanner. Files are objects that require the new keyword and the name of the file in the parentheses with quotes. 
+
+
+File file1 = new File(“file1.txt”);
+Scanner scnr = new Scanner(file1);
+OR
+Scanner scnr = new Scanner(new File(“file.txt”));
+
+
+The file can now be read with the scanner using the methods you have previously learned. When reading from a file, it is important to use a try catch block that surrounds the file declaration in order to prevent any errors from reading from a file that doesn’t actually exist. Your TA will explain how try/catch blocks work and provide an example.
+
+
+File Output
+
+
+File output requires the use of a PrintWriter, which is similar to using system.out.print except it prints to a file rather than the console. To declare a PrintWriter, you can use: PrintWriter pw = new PrintWriter(put final name here); When writing to a file, you must also use a try/catch block in case the file you’re writing to does not exist. After declaring the PrintWriter, you can then write to the file using .print methods. 
+
+
+Steps for Today’s Lab
+
+
+1. Create a project and class for this project, and import the two files into your project.
+2. Declare a scanner that reads from “ReadFile.txt” and a printwriter that writes to “WriteFile.txt”
+   1. “ReadFile.txt” contains the names of two students and their four scores 
+   2. “WriteFile.txt”, once you are done with your program, should contain the names of these students, and their average score. It should also contain the average overall score for both students. It should follow this format: 
+Name: Student 1        Average Score: 
+Name: Student 2        Average Score: 
+Average Score for Both Students: 
+   3. Read the values from the read file into appropriate variables, perform the calculation, and output the results in the appropriate format in the write file
